@@ -144,10 +144,17 @@ class Carro(Veiculo):
         return self.__potencia
 
 
-moto1 = Moto("Honda", "remaza", "1237-123-ads123", 750, "azul", "1999", "8000km", "R$60.000")
+moto1 = Moto("Honda", "remaza", "12ASD123", 750, "azul", "1999", 8000, 60000)
+moto2 = Moto("Yamaha", "Fazer 250", "ABC98765", 250, "Preta", "2018", 30000, 11500)
 
-print(moto1.imprimir_dados())
+carro1 = Carro("Ford", "Fusion", "RST34567", 200, "Cinza", 2018, 80000, 95000)
+carro2 = Carro("Chevrolet", "Camaro", "UVX87654", 400, "Amarelo", 2021, 15000, 140000)
 
-lancha1 = Lancha("yamaha","kyuzai", "65234-76fs-234", 1200, "verde", "2014", "7000h", "R$100.00")
+lancha1 = Lancha("Sea Ray", "SLX 400", "LMN45678", 350, "Branca", 2022, 500, 350000)
+lancha2 = Lancha("Bayliner", "VR5", "OPQ87654", 280, "Azul", 2021, 300, 250000)
 
-print(lancha1.imprimir_dados())
+
+caminhao1 = Caminhao("Scania", "R 440", "JKL12345", 3, "Branco", 2019, 250000, 250000)
+caminhao2 = Caminhao("Mercedes-Benz", "Actros 2545", "MNO98765", 4, "Preto", 2020, 200000, 280000)
+
+
